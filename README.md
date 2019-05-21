@@ -1,5 +1,5 @@
 ![logo](https://i.imgur.com/Zc5otUj.png)
-Searches through your code to find all the require() to tell you what you actually need for the node project.
+Scans your code to find all the require() to tell you what you actually need for the node project. Uses a single file as the starting point then does depth first search.
 
 ## Usage
 
