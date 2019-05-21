@@ -1,5 +1,5 @@
 ![logo](https://i.imgur.com/Zc5otUj.png)
-Scans your code to find all the require() to tell you what you actually need for the node project. Uses a single file as the starting point then does depth first search.
+Scans your code to find all the require() to tell you what you actually need for the node project. Uses a single file as the starting point then does depth first search. Optional -- It can also update your package.json after to only include the needed modules under dependencies. 
 
 ## Usage
 
