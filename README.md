@@ -1,4 +1,4 @@
-# what-i-actually-need (CLI)
+![logo](https://i.imgur.com/Zc5otUj.png)
 Searches through your code to find all the require() to tell you what you actually need for the node project.
 
 ## Usage
