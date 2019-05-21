@@ -1,6 +1,6 @@
 {
   "name": "what-i-actually-need",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {},
@@ -13,8 +13,8 @@
   "dependencies": {
     "command-line-args": "^5.1.1",
     "command-line-usage": "^5.0.5",
-    "find-imports": "^1.1.0",
-    "find-requires": "^1.0.0"
+    "find-requires": "^1.0.0",
+    "json-beautify": "^1.1.0"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
@@ -26,6 +26,6 @@
     "eslint-plugin-standard": "^4.0.0"
   },
   "bin": {
-	  "what-i-actually-need": "index.js"
+    "what-i-actually-need": "index.js"
   }
 }
