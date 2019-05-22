@@ -1,5 +1,4 @@
 const fs = require('fs');
-const beautify = require('json-beautify');
 
 function updatePackage (options) {
   const { modules } = options;
@@ -23,7 +22,7 @@ function updatePackage (options) {
       }
     }
     packageJSON.dependencies = newDependencies;
-    fs.writeFile('./package.json', beautify(JSON.stringify(packageJSON)), 'utf8', (err) => { if (err) throw err; });
+    fs.writeFile('./package.json', JSON.stringify(packageJSON), 'utf8', (err) => { if (err) throw err; });
     console.log();
     console.log('package.json has been updated with what is actually needed.');
   }
