@@ -21,6 +21,12 @@ const sections = [
         description: 'Update package.json without asking after analyzing'
       },
       {
+        name: 'keep',
+        alias: 'k',
+        typeLabel: '{underline String}',
+        description: 'path to a json file with a array of packages to keep in package.json whhen updating it'
+      },
+      {
         name: 'help',
         alias: 'h',
         typeLabel: '{underline Boolean}',

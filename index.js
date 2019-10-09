@@ -8,6 +8,7 @@ const updatePackage = require('./src/updatePackage');
 const optionDefinitions = [
   { name: 'entry', alias: 'e' },
   { name: 'run', alias: 'r', type: Boolean },
+  { name: 'keep', alias: 'k', type: Boolean },
   { name: 'help', alias: 'h', type: Boolean }
 ];
 const options = commandLineArgs(optionDefinitions);
